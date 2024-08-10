@@ -37,9 +37,18 @@ export default function Home() {
           )}
         </div>
 
-        <h1 className="text-2xl xl:text-4xl font-bold mt-10">
-          {success ? "Textooooooooooooooo" : "¿Quieres ser mi novia?"}
-        </h1>
+        {success ? (
+          <h1 className="text-2xl container px-5 font-bold mt-10">
+            Sabía que dirías que sí, gracias por elegir ser parte de mi vida, mi
+            novia la más bonita y hermosa 💖 recuerda siempre, que prometo dar
+            siempre lo mejor de mí, somos un equipo my girl 💖 te has convertido
+            en alguien muy importante para mí gracias por el amor que me das🫂💖
+          </h1>
+        ) : (
+          <h1 className="text-2xl xl:text-4xl font-bold mt-10">
+            ¿Quieres ser mi novia?
+          </h1>
+        )}
 
         {!success && (
           <div className="flex items-center w-full mt-10 gap-5">
