@@ -28,25 +28,25 @@ export default function Home() {
         <div className="flex items-center gap-5">
           {!success ? (
             <>
-              <ImageLove src="/images/he.jpeg" alt="he image" />
+              <ImageLove src="/images/dph.jpeg" alt="he image" />
 
-              <ImageLove src="/images/she.jpeg" alt="she image" />
+              <ImageLove src="/images/ea.jpeg" alt="she image" />
             </>
           ) : (
-            <ImageLove src="/images/both.jpeg" alt="image success" />
+            <ImageLove src="/images/noi.jpeg" alt="image success" />
           )}
         </div>
 
         {success ? (
           <h1 className="text-2xl container px-5 font-bold mt-10">
-            Sabía que dirías que sí, gracias por elegir ser parte de mi vida, mi
-            novia la más bonita y hermosa 💖 recuerda siempre, que prometo dar
-            siempre lo mejor de mí, somos un equipo my girl 💖 te has convertido
-            en alguien muy importante para mí gracias por el amor que me das🫂💖
+           Știam că vei spune da, mulțumesc că ai ales să faci parte din viața mea
+            mireasa cea mai frumoasa si frumoasa 💖 aminteste-ti mereu, promit sa daruiesc
+            întotdeauna cel mai bun dintre mine, suntem o echipă fata mea 💖 ai devenit
+            în cineva foarte important pentru mine, mulțumesc pentru dragostea pe care mi-o oferi💖 💖 
           </h1>
         ) : (
           <h1 className="text-2xl xl:text-4xl font-bold mt-10">
-            ¿Quieres ser mi novia?
+            Vrei să fii prietena mea?
           </h1>
         )}
 
@@ -54,7 +54,7 @@ export default function Home() {
           <div className="flex items-center w-full mt-10 gap-5">
             {/* Yes */}
             <Button onClick={() => setSuccess(true)} className="flex-1">
-              {newMessageButton ? "No" : "Sí"}
+              {newMessageButton ? "Nu" : "Da"}
             </Button>
 
             {/* No */}
@@ -64,14 +64,14 @@ export default function Home() {
               onClick={() => setSuccess(true)}
               className="flex-1 hidden lg:block"
             >
-              {newMessageButton ? "Sí" : "No"}
+              {newMessageButton ? "Da" : "Nu"}
             </Button>
 
             <Button
               onClick={() => setSuccess(true)}
               className="flex-1 block lg:hidden"
             >
-              Sí
+              Yes
             </Button>
           </div>
         )}
