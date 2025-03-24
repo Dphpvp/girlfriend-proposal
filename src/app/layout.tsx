@@ -3,8 +3,8 @@ import "./globals.css";
 import { montserrat } from "@/fonts";
 
 export const metadata: Metadata = {
-  title: "Para ti 👩‍❤️‍👨",
-  description: "Propuesta de noviazgo",
+  title: "Pentru Tine 👩‍❤️‍👨",
+  description: "Propunere de iubire",
 };
 
 export default function RootLayout({
