@@ -39,14 +39,13 @@ export default function Home() {
 
         {success ? (
           <h1 className="text-2xl container px-5 font-bold mt-10">
-           Știam că vei spune da, mulțumesc că ai ales să faci parte din viața mea
-            mireasa cea mai frumoasa si frumoasa 💖 aminteste-ti mereu, promit sa daruiesc
-            întotdeauna cel mai bun dintre mine, suntem o echipă fata mea 💖 ai devenit
-            în cineva foarte important pentru mine, mulțumesc pentru dragostea pe care mi-o oferi💖 💖 
+           Stiam că vei spune da, iti multumesc pentru ca ai ales să faci parte din viața mea,
+            promit sa dau mereu tot ce e mai bun pentru tine si noi, sa fim fericiti amandoi💖 ai devenit
+            foarte importanta pentru mine si ma bucur ca esti langa mine, mulțumesc pentru dragostea pe care mi-o oferi💖 💖 
           </h1>
         ) : (
           <h1 className="text-2xl xl:text-4xl font-bold mt-10">
-            Vrei să fii prietena mea?
+            Vrei să fii a mea pe viata?
           </h1>
         )}
 
