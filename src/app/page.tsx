@@ -60,12 +60,13 @@ export default function Home() {
             <Button
               onMouseEnter={() => setNewMessageButton(true)}
               onMouseLeave={() => setNewMessageButton(false)}
+              onTouchStart={() => setNewMessageButton(true)}
+              onTouchEnd={() => setNewMessageButton(false)}
               onClick={() => setSuccess(true)}
-              className="flex-1 hidden lg:block"
+              className="flex-1" // Removed the hidden lg:block to show on all devices
             >
               {newMessageButton ? "Da" : "Nu"}
             </Button>
-
             <Button
               onClick={() => setSuccess(true)}
               className="flex-1 block lg:hidden"
