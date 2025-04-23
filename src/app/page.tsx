@@ -67,12 +67,7 @@ export default function Home() {
             >
               {newMessageButton ? "Da" : "Nu"}
             </Button>
-            <Button
-              onClick={() => setSuccess(true)}
-              className="flex-1 block lg:hidden"
-            >
-              Nu
-            </Button>
+            
           </div>
         )}
       </div>
